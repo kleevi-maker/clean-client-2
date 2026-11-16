@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanclient",
+  "version": "${version}",
+  "name": "Clean Client",
+  "description": "Sauberer Client mit eigenem Menü, Modulen und Einstellungen.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.cleanclient.CleanClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
